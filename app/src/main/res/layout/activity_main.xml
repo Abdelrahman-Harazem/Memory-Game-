@@ -17,10 +17,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Space
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/playerNameTextField"
+            android:textColor="@android:color/background_light" />
+
+        <EditText
+            android:id="@+id/playerName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="2" />
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="@string/playerNameEditText"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorPrimary" />
 
         <LinearLayout
             android:id="@+id/vLinearLayout2"

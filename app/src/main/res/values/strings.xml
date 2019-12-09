@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Memory Game</string>
     <string name="startBtn">Start</string>
-    <string name="dashBoardBtn">Dash Board</string>
+    <string name="dashBoardBtn">LeaderBoard</string>
     <string name="exitBtn">Exit</string>
+    <string name="playerNameEditText">Type Player Name </string>
+    <string name="playerNameTextField">Player Name </string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
